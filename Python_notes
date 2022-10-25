@@ -1,0 +1,39 @@
+Intro Python
+1)	High-level (i/o, system call, socket), (‘Monty Python’s Flying Circus’ BBC show)
+2)	Interpreter (No compilation and linking fast run)
+3)	$where python or $where py  provide location of python installation files
+4)	Startadd Env varib to python, start in command prompt and Stop crtl+z (EOF lines) 
+
+
+Operations
+1)	>>> 17 // 3  # floor division discards the fractional part
+2)	5 ** 2  # 5 squared
+3)	last printed expression is assigned to the variable _
+4)	complex numbers, and uses the j or J suffix to indicate the imaginary part
+5)	print uses the format for strings (print(r'C:\so\name')), but string varb jus print string >>s = 'First\nSecond.    Concatination: 'Py' 'thon' or 'Py' + 'thon' both are same. 
+6)	a = ‘abcdf’  >>>a[-1]>>>f  negative numbers, to start counting from the right.
+7)	Slicing: obtain substring  a[2:4]>> cdf || a  $a[:i] + a[i:] = s  || $a[4:44]>>f
+8)	Python strings cannot be changed — they are immutable a[0]= q,(assigning to its index is not possible) ‘q’ + a[1:]>>qbcdf
+9)	List [ ] might contain items of different types, for Slicing and Concat and mutable a[2]= 3 || a.append(g) abcdefg  || len(a) = 6 || a [:] = [ ]  this clears all items in list. || thislist = list(("a", "b", "c"))constructor || thislist.insert(2, "w") || thislist.pop(1)  remov 2nd item || del thislist[0] || thislist.clear() || thislist.sort(key = val) ||mylist = thislist.copy()	
+10)	Nested list num =[1,2,3], list = [a, num],, list[0][2]>> c
+11)	Python any non-zero integer,list/string non-zero length is true value is true; zero, empty sequences is false
+12)	#This is a comment and data type of a variable with the type( varb_ name), to change global varb inside a func, then refer varb with global keyword.
+13)	multiline string to a variable by using three quotes str = “”” fvjnfiujgbieunnamo……….””” Python don’t have char data type string len is 1.||  If “namo” in str (searching), str.strip() remove sapces || str. split(",") separators str into substr https://www.w3schools.com/python/python_strings_methods.asp    
+14)	Ex: print seq of negative squared values eg, -3 is 9
+
+Control flows
+1)	zero or more elif parts, and the else part is optional, substitute for the switch
+If cond:
+       Statement
+elif
+       statement
+else:
+       statement
+
+2)	For statement iterates over the items of any sequence a list or a string
+
+
+
+
+
+
