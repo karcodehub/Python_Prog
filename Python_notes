@@ -8,6 +8,7 @@ Intro Python
 Operations
 1)	>>> 17 // 3  # floor division discards the fractional part
 2)	5 ** 2  # 5 squared
+2.1)   multi varb value assgn num = [1,2,3]....a,b,c = num, print(a +b +c)
 3)	last printed expression is assigned to the variable _
 4)	complex numbers, and uses the j or J suffix to indicate the imaginary part
 5)	print uses the format for strings (print(r'C:\so\name')), but string varb jus print string >>s = 'First\nSecond.    Concatination: 'Py' 'thon' or 'Py' + 'thon' both are same. 
